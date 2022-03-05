@@ -10026,7 +10026,7 @@
      * // => Logs the number of milliseconds it took for the deferred invocation.
      */
     var now = ctxNow || function() {
-      return root.Date.now();
+      return Date.now();
     };
 
     /*------------------------------------------------------------------------*/
